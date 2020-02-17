@@ -29,7 +29,7 @@ function(ament_cmake_uninstall_target_remove_empty_directories path)
 endfunction()
 
 # uninstall files installed using the standard install() function
-set(install_manifest "/home/aw_rdex/ros2_ws/src/cpp_pubsub2/build/install_manifest.txt")
+set(install_manifest "/home/aw_rdex/ros2_ws/src/ros2_tutorials/cpp_pubsub2/build/install_manifest.txt")
 if(NOT EXISTS "${install_manifest}")
   message(FATAL_ERROR "Cannot find install manifest: ${install_manifest}")
 endif()

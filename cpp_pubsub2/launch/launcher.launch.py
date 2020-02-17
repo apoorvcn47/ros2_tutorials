@@ -7,7 +7,7 @@ def generate_launch_description():
         launch_ros.actions.Node(
             # the name of the executable is set in CMakeLists.txt, towards the end of
             # the file, in add_executable(...) and the directives following it
-            package='cpp_pubsub2', node_executable='talker2', output='screen'),
+            package='cpp_pubsub2', node_executable='talker2', node_name='talkerA', output='screen'),
         launch_ros.actions.Node(
             # the name of the executable is set in CMakeLists.txt, towards the end of
             # the file, in add_executable(...) and the directives following it

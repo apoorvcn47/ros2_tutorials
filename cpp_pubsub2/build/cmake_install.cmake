@@ -1,4 +1,4 @@
-# Install script for directory: /home/aw_rdex/ros2_ws/src/cpp_pubsub2
+# Install script for directory: /home/aw_rdex/ros2_ws/src/ros2_tutorials/cpp_pubsub2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_pubsub2/talker2"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cpp_pubsub2" TYPE EXECUTABLE FILES "/home/aw_rdex/ros2_ws/src/cpp_pubsub2/build/talker2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cpp_pubsub2" TYPE EXECUTABLE FILES "/home/aw_rdex/ros2_ws/src/ros2_tutorials/cpp_pubsub2/build/talker2")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_pubsub2/talker2" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_pubsub2/talker2")
     file(RPATH_CHANGE
@@ -64,7 +64,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_pubsub2/listener"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cpp_pubsub2" TYPE EXECUTABLE FILES "/home/aw_rdex/ros2_ws/src/cpp_pubsub2/build/listener")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cpp_pubsub2" TYPE EXECUTABLE FILES "/home/aw_rdex/ros2_ws/src/ros2_tutorials/cpp_pubsub2/build/listener")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_pubsub2/listener" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_pubsub2/listener")
     file(RPATH_CHANGE
@@ -78,11 +78,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/aw_rdex/ros2_ws/src/cpp_pubsub2/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_pubsub2/" TYPE DIRECTORY FILES "/home/aw_rdex/ros2_ws/src/ros2_tutorials/cpp_pubsub2/launch")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/aw_rdex/ros2_ws/src/cpp_pubsub2/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/aw_rdex/ros2_ws/src/ros2_tutorials/cpp_pubsub2/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub2")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/aw_rdex/ros2_ws/src/ros2_tutorials/cpp_pubsub2/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub2")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -94,30 +98,30 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_pubsub2" TYPE FILE FILES "/home/aw_rdex/ros2_ws/src/cpp_pubsub2/build/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_pubsub2" TYPE FILE FILES "/home/aw_rdex/ros2_ws/src/ros2_tutorials/cpp_pubsub2/build/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_pubsub2" TYPE FILE FILES "/home/aw_rdex/ros2_ws/src/cpp_pubsub2/build/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_pubsub2" TYPE FILE FILES "/home/aw_rdex/ros2_ws/src/ros2_tutorials/cpp_pubsub2/build/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_pubsub2" TYPE FILE FILES "/home/aw_rdex/ros2_ws/src/cpp_pubsub2/build/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_pubsub2" TYPE FILE FILES "/home/aw_rdex/ros2_ws/src/ros2_tutorials/cpp_pubsub2/build/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/aw_rdex/ros2_ws/src/cpp_pubsub2/build/ament_cmake_index/share/ament_index/resource_index/packages/cpp_pubsub2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/aw_rdex/ros2_ws/src/ros2_tutorials/cpp_pubsub2/build/ament_cmake_index/share/ament_index/resource_index/packages/cpp_pubsub2")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_pubsub2/cmake" TYPE FILE FILES
-    "/home/aw_rdex/ros2_ws/src/cpp_pubsub2/build/ament_cmake_core/cpp_pubsub2Config.cmake"
-    "/home/aw_rdex/ros2_ws/src/cpp_pubsub2/build/ament_cmake_core/cpp_pubsub2Config-version.cmake"
+    "/home/aw_rdex/ros2_ws/src/ros2_tutorials/cpp_pubsub2/build/ament_cmake_core/cpp_pubsub2Config.cmake"
+    "/home/aw_rdex/ros2_ws/src/ros2_tutorials/cpp_pubsub2/build/ament_cmake_core/cpp_pubsub2Config-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_pubsub2" TYPE FILE FILES "/home/aw_rdex/ros2_ws/src/cpp_pubsub2/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_pubsub2" TYPE FILE FILES "/home/aw_rdex/ros2_ws/src/ros2_tutorials/cpp_pubsub2/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -128,5 +132,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/aw_rdex/ros2_ws/src/cpp_pubsub2/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/aw_rdex/ros2_ws/src/ros2_tutorials/cpp_pubsub2/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
