@@ -5,9 +5,10 @@ import launch_ros.actions
 import pathlib
 
 # To include launch files
-from launch.actions import IncludeLaunchDescription
-from launch.launch_description_sources import PythonLaunchDescriptionSource
-# from launch.substitutions import ThisLaunchFileDir
+# from launch.actions import IncludeLaunchDescription
+# from launch.launch_description_sources import PythonLaunchDescriptionSource
+import launch.actions
+import launch.launch_description_sources
  
 def generate_launch_description():
     package_path = str(pathlib.Path(__file__).parents[1]) # get current path and go one level up
@@ -15,8 +16,8 @@ def generate_launch_description():
     print(parameters_file_path)
 
     return LaunchDescription([  
-        IncludeLaunchDescription(
-            PythonLaunchDescriptionSource([package_path + '/launch/', 'rviz.launch.py'])),
+        launch.actions.IncludeLaunchDescription(
+            launch.launch_description_sources.PythonLaunchDescriptionSource([package_path + '/launch/', 'rviz.launch.py'])),
              
 
         launch_ros.actions.Node(
