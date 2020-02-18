@@ -1,5 +1,6 @@
 talkerA:
   ros__parameters:
+    xyz: 32
     items:
       qwe: 12
       asd: 45

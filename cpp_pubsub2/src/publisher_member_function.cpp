@@ -9,7 +9,15 @@ int main(int argc, char * argv[])
 {
   rclcpp::init(argc, argv);
 
+  // rclcpp::NodeOptions node_options;
+  // node_options.allow_undeclared_parameters(true);
+  // node_options.initial_parameters(initial_parameters);
   auto node = rclcpp::Node::make_shared("talker2");
+  // rclcpp::NodeOptions node_options;
+  // node_options.allow_undeclared_parameters(true);
+  // node_options.automatically_declare_parameters_from_overrides();
+  // node->declare_parameter("xyz");
+  // node->declare_parameter("items");
 
   rmw_qos_profile_t custom_qos_profile = rmw_qos_profile_default;
   custom_qos_profile.depth = 7;
