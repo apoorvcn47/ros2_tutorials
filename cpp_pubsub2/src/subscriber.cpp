@@ -21,7 +21,7 @@
 
 void chatterCallback(const std_msgs::msg::String::SharedPtr msg)
 {
-  std::cout << "I heard: [" << msg->data << "]" << std::endl;
+  // std::cout << "I heard: [" << msg->data << "]" << std::endl;
 }
 
 int main(int argc, char * argv[])

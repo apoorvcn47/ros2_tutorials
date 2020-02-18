@@ -1,0 +1,11 @@
+talkerA:
+  ros__parameters:
+    items:
+      qwe: 12
+      asd: 45
+
+listener:
+  ros__parameters:
+    items:
+      qwe: 12
+      asd: 45

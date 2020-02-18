@@ -23,7 +23,7 @@ int main(int argc, char * argv[])
 
   while (rclcpp::ok()) {
     msg->data = "Hello World: " + std::to_string(i++);
-    std::cout << "Publishing: '" << msg->data << "'" << std::endl;
+    // std::cout << "Publishing: '" << msg->data << "'" << std::endl;
     chatter_pub->publish(msg);
     rclcpp::spin_some(node);
     loop_rate.sleep();
