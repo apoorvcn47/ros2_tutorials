@@ -13,7 +13,7 @@ def generate_launch_description():
     package_path = str(pathlib.Path(__file__).parents[1]) # get current path and go one level up
     # package_path = get_package_share_directory('cpp_pubsub2')
     parameters_file_path = package_path + '/params/' + 'params.yaml'
-    print(parameters_file_path)
+    # print(parameters_file_path)
 
     
 

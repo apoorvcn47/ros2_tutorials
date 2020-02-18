@@ -11,13 +11,15 @@ int main(int argc, char * argv[])
 
   // rclcpp::NodeOptions node_options;
   // node_options.allow_undeclared_parameters(true);
-  // node_options.initial_parameters(initial_parameters);
-  auto node = rclcpp::Node::make_shared("talker2");
-  // rclcpp::NodeOptions node_options;
-  // node_options.allow_undeclared_parameters(true);
   // node_options.automatically_declare_parameters_from_overrides();
-  // node->declare_parameter("xyz");
-  // node->declare_parameter("items");
+
+  auto node = rclcpp::Node::make_shared("talker2");
+
+  node->declare_parameter("xyz");
+  node->declare_parameter("items.qwe");  
+  int a,b;
+  node->get_parameter("xyz", a);
+  // node->get_parameter("items.qwe", b);
 
   rmw_qos_profile_t custom_qos_profile = rmw_qos_profile_default;
   custom_qos_profile.depth = 7;
