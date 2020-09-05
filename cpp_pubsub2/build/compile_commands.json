@@ -8,5 +8,10 @@
   "directory": "/home/aw_rdex/ros2_ws/src/ros2_tutorials/cpp_pubsub2/build",
   "command": "/usr/bin/clang++-6.0   -I/home/aw_rdex/ros2_dashing/ros2-linux/include  -g   -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/listener.dir/src/subscriber.cpp.o -c /home/aw_rdex/ros2_ws/src/ros2_tutorials/cpp_pubsub2/src/subscriber.cpp",
   "file": "/home/aw_rdex/ros2_ws/src/ros2_tutorials/cpp_pubsub2/src/subscriber.cpp"
+},
+{
+  "directory": "/home/aw_rdex/ros2_ws/src/ros2_tutorials/cpp_pubsub2/build",
+  "command": "/usr/bin/clang++-6.0   -I/home/aw_rdex/ros2_dashing/ros2-linux/include  -g   -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/timer_node.dir/src/timer.cpp.o -c /home/aw_rdex/ros2_ws/src/ros2_tutorials/cpp_pubsub2/src/timer.cpp",
+  "file": "/home/aw_rdex/ros2_ws/src/ros2_tutorials/cpp_pubsub2/src/timer.cpp"
 }
 ]

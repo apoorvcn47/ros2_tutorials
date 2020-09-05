@@ -40,9 +40,13 @@ ament_target_dependencies(talker2 rclcpp std_msgs)
 add_executable(listener src/subscriber.cpp)
 ament_target_dependencies(listener rclcpp std_msgs)
 
+add_executable(timer_node src/timer.cpp)
+ament_target_dependencies(timer_node rclcpp std_msgs)
+
 install(TARGETS
   talker2
   listener
+  timer_node
   DESTINATION lib/${PROJECT_NAME}
 )
 
